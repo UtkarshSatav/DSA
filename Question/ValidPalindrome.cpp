@@ -19,3 +19,11 @@ bool isPalindrome(string s) {
 
     return true;
 }
+
+int main(){
+    string
+    s = "A";
+    cout << (isPalindrome(s) ? "true" : "false") << endl; // Output: true
+    s = "banana";
+    cout << (isPalindrome(s) ? "true" : "false") << endl; // Output: false
+}
